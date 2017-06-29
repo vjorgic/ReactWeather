@@ -3,7 +3,7 @@ var React = require('react');
 var WeatherMessage = React.createClass({
   render: function() {
     return(
-      <div>{this.props.location + ' ' + this.props.temp}</div>
+      <h3 className="text-center">{this.props.location + ' ' + this.props.temp + ' C'}</h3>
     );
   }
 });
